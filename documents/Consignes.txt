@@ -1,0 +1,38 @@
+TOGETHER
+
+DESCRIPTION:
+Un app mobile permettant aux utilisateurs non-inscrits de voir des activités de loisirs proposées autour de leur position (géolocalisée) par des utilisateurs inscrits.
+
+Ces activités sont caractérisées par 
+- Un titre
+- Une ou plusieurs photos
+- Un localisation
+- Une date et un heure de début
+- Une durée approximative
+- Une description
+- Un nombre maximum de participants
+- Une catégorie (Randonnée, VTT, Moto, Pêche, Kayak, ...)
+
+On va donc pouvoir filtrer les activités par catégories, par distance.
+On peut les trier par date ou par distance.
+
+Pour participer à une activité, il faut être inscrit.
+Lors de l'inscription, on demande les catégories qui pourraient intéresser l'utilisateur, un pseudo, une date de naissance, une photo, une localité, un pays, un mail, une description courte et une plus longue.
+
+Après avoir participé à une activité, les utilisateurs sont invités à évaluer l'organisateur sur 5 et l'organisateur peut noter les participants sur 5. Ces évaluations apparaissent sur la fiche des activités et sur le profil de l'utilisateur.
+
+Le dashboard de l'application reprend les catégories, les activités à proximité et les prochaines activités.
+
+On peut éditer son profil et modifier ses catégories et rayon d'intérêt. On peut suivre des utilisateurs pour être tenu au courant de ses prochaines activités.
+
+OPTION: la liste des activités peut être affichée en liste ou sur une carte
+
+
+CONTRAINTES TECHNIQUES
+ - API LARAVEL
+ - VUE JS avec PINIA et VUE-ROUTER
+ - Doit être en ligne
+
+ CAHIER DES CHARGES
+ - PDF
+

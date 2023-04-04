@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Together Dashboard</title>
+        <!-- Tailwind CSS -->
+        <script src="https://cdn.tailwindcss.com"></script>
+        <!-- Font Awesome -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+    </head>
+    <body class="bg-gradient-to-b from-teal-600 to-cyan-900 text-zinc-50 font-roboto h-screen flex flex-col" text-zinc-50 font-roboto h-screen flex flex-col">
+        <!-- Header -->
+        <header class="shrink-0 container mx-auto px-4 py-4 text-center">
+            <h1 class="text-4xl font-bold mb-4">Together</h1>
+            <div class="flex items-center justify-between w-full max-w-md">
+                <div class="relative w-full">
+                    <input
+                        class="block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded-md py-2 pl-10 pr-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                        type="text"
+                        placeholder="Chercher des activités"
+                    />
+                    <div
+                        class="absolute inset-y-0 left-0 pl-3 flex items-center"
+                    >
+                        <span class="text-gray-500">
+                            <i class="fas fa-search"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between ml-4 text-white">
+                    <span class="mr-4">
+                        <i class="fas fa-filter"></i>
+                    </span>
+                    <span class="">
+                        <i class="fas fa-map"></i>
+                    </span>
+                </div>
+            </div>
+        </header>
+
+        <main class="grow-1 overflow-auto container mx-4">
+            <section class="py-4">
+                <h2 class="text-3xl font-bold mb-6">Catégories</h2>
+                <div class="flex flex-no-wrap overflow-x-auto">
+                    <div
+                        class="flex-shrink-0 w-1/4 md:w-1/5 lg:w-1/5 xl:w-1/5 mr-4"
+                    >
+                        <div
+                            class="rounded-full"
+                        >
+                            <img
+                                src="https://source.unsplash.com/160x160/?beach"
+                                class="w-full h-full rounded-full"
+                                alt="Category 1"
+                            />
+                            <p class="font-medium text-center">Category 1</p>
+                        </div>
+                        
+                    </div>
+                    <div
+                        class="flex-shrink-0 w-1/4 md:w-1/5 lg:w-1/5 xl:w-1/5 mr-4"
+                    >
+                        <div
+                            class="rounded-full"
+                        >
+                            <img
+                                src="https://source.unsplash.com/160x160/?beach"
+                                class="w-full h-full rounded-full"
+                                alt="Category 1"
+                            />
+                            <p class="font-medium text-center">Category 1</p>
+                        </div>
+                        
+                    </div>
+                    <div
+                        class="flex-shrink-0 w-1/4 md:w-1/5 lg:w-1/5 xl:w-1/5 mr-4"
+                    >
+                        <div
+                            class="rounded-full"
+                        >
+                            <img
+                                src="https://source.unsplash.com/160x160/?beach"
+                                class="w-full h-full rounded-full"
+                                alt="Category 1"
+                            />
+                            <p class="font-medium text-center">Category 1</p>
+                        </div>
+                        
+                    </div>
+                    <div
+                        class="flex-shrink-0 w-1/4 md:w-1/5 lg:w-1/5 xl:w-1/5 mr-4"
+                    >
+                        <div
+                            class="rounded-full"
+                        >
+                            <img
+                                src="https://source.unsplash.com/160x160/?beach"
+                                class="w-full h-full rounded-full"
+                                alt="Category 1"
+                            />
+                            <p class="font-medium text-center">Category 1</p>
+                        </div>
+                        
+                    </div>
+                    <div
+                        class="flex-shrink-0 w-1/4 md:w-1/5 lg:w-1/5 xl:w-1/5 mr-4"
+                    >
+                        <div
+                            class="rounded-full"
+                        >
+                            <img
+                                src="https://source.unsplash.com/160x160/?beach"
+                                class="w-full h-full rounded-full"
+                                alt="Category 1"
+                            />
+                            <p class="font-medium text-center">Category 1</p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+            <section class="py-4">
+                <div class="container my-4">
+                    <h2 class="text-3xl font-bold mb-6">
+                        Activités à proximité
+                    </h2>
+                    <div class="flex overflow-x-auto">
+                        <article
+                            class="shrink-0 w-2/3 md:w-1/5 lg:w-1/5 xl:w-1/5 pr-4"
+                        >
+                            <div
+                                class="bg-cyan-950 rounded-lg overflow-hidden shadow-lg"
+                            >
+                            <div class="relative">
+                                <img
+                                    class="w-full h-48 object-cover "
+                                    src="https://source.unsplash.com/random/800x600/?activity"
+                                    alt="Activity Cover"
+                                />
+                                <span class="absolute top-3 left-3 inline-block py-1 px-2 bg-gray-100 text-gray-700 rounded">randonnée</span>
+                                <span class="absolute bottom-3 right-3 inline-block text-white text-2xl font-bold">1er mars</span>
+                            </div>
+                                
+                                <div class="p-4">
+                                    <h3 class="text-xl font-bold mb-2">
+                                        Randonnée
+                                    </h3>
+                                    <div class="flex items-center mb-2">
+                                        <span class="text-green-500 mr-1"
+                                            ><i
+                                                class="fas fa-map-marker-alt"
+                                            ></i
+                                        ></span>
+                                        <span>Paris, France</span>
+                                        <span class="mx-2">
+                                    </div>
+                                    <div class="flex items-center mb-2">
+                                        
+                                        <span class="text-green-500"
+                                            ><i class="fas fa-users"></i>
+                                            4/10</span
+                                        >
+                                    </div>
+                                    <p class="text-gray-400">
+                                        Proposé par Jean Dupont
+                                    </p>
+                                    <div class="text-center pb-2"><a
+                                        href="#"
+                                        class="inline-block mt-4 bg-green-700 hover:bg-green-950 rounded-full px-4 py-2 text-white"
+                                        >En savoir plus</a
+                                    ></div>
+                                    
+                                </div>
+                            </div>
+                        </article>
+                        <article
+                            class="shrink-0 w-2/3 md:w-1/5 lg:w-1/5 xl:w-1/5 pr-4"
+                        >
+                            <div
+                                class="bg-cyan-950 rounded-lg overflow-hidden shadow-lg"
+                            >
+                            <div class="relative">
+                                <img
+                                    class="w-full h-48 object-cover "
+                                    src="https://source.unsplash.com/random/800x600/?activity"
+                                    alt="Activity Cover"
+                                />
+                                <span class="absolute top-3 left-3 inline-block py-1 px-2 bg-gray-100 text-gray-700 rounded">randonnée</span>
+                                <span class="absolute bottom-3 right-3 inline-block text-white text-2xl font-bold">1er mars</span>
+                            </div>
+                                
+                                <div class="p-4">
+                                    <h3 class="text-xl font-bold mb-2">
+                                        Randonnée
+                                    </h3>
+                                    <div class="flex items-center mb-2">
+                                        <span class="text-green-500 mr-1"
+                                            ><i
+                                                class="fas fa-map-marker-alt"
+                                            ></i
+                                        ></span>
+                                        <span>Paris, France</span>
+                                        <span class="mx-2">
+                                    </div>
+                                    <div class="flex items-center mb-2">
+                                        
+                                        <span class="text-green-500"
+                                            ><i class="fas fa-users"></i>
+                                            4/10</span
+                                        >
+                                    </div>
+                                    <p class="text-gray-400">
+                                        Proposé par Jean Dupont
+                                    </p>
+                                    <a
+                                        href="#"
+                                        class="inline-block mt-4 bg-green-700 hover:bg-green-950 rounded-full px-4 py-2 text-white"
+                                        >En savoir plus</a
+                                    >
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <section class="py-4">
+                <div class="container my-4">
+                    <h2 class="text-3xl font-bold mb-6">
+                        Activités à proximité
+                    </h2>
+                    <div class="flex overflow-x-auto">
+                        <article
+                            class="shrink-0 w-2/3 md:w-1/5 lg:w-1/5 xl:w-1/5 pr-4"
+                        >
+                            <div
+                                class="bg-cyan-950 rounded-lg overflow-hidden shadow-lg"
+                            >
+                            <div class="relative">
+                                <img
+                                    class="w-full h-48 object-cover "
+                                    src="https://source.unsplash.com/random/800x600/?activity"
+                                    alt="Activity Cover"
+                                />
+                                <span class="absolute top-3 left-3 inline-block py-1 px-2 bg-gray-100 text-gray-700 rounded">randonnée</span>
+                                <span class="absolute bottom-3 right-3 inline-block text-white text-2xl font-bold">1er mars</span>
+                            </div>
+                                
+                                <div class="p-4">
+                                    <h3 class="text-xl font-bold mb-2">
+                                        Randonnée
+                                    </h3>
+                                    <div class="flex items-center mb-2">
+                                        <span class="text-green-500 mr-1"
+                                            ><i
+                                                class="fas fa-map-marker-alt"
+                                            ></i
+                                        ></span>
+                                        <span>Paris, France</span>
+                                        <span class="mx-2">
+                                    </div>
+                                    <div class="flex items-center mb-2">
+                                        
+                                        <span class="text-green-500"
+                                            ><i class="fas fa-users"></i>
+                                            4/10</span
+                                        >
+                                    </div>
+                                    <p class="text-gray-400">
+                                        Proposé par Jean Dupont
+                                    </p>
+                                    <div class="text-center pb-2"><a
+                                        href="#"
+                                        class="inline-block mt-4 bg-green-700 hover:bg-green-950 rounded-full px-4 py-2 text-white"
+                                        >En savoir plus</a
+                                    ></div>
+                                    
+                                </div>
+                            </div>
+                        </article>
+                        <article
+                            class="shrink-0 w-2/3 md:w-1/5 lg:w-1/5 xl:w-1/5 pr-4"
+                        >
+                            <div
+                                class="bg-cyan-950 rounded-lg overflow-hidden shadow-lg"
+                            >
+                            <div class="relative">
+                                <img
+                                    class="w-full h-48 object-cover "
+                                    src="https://source.unsplash.com/random/800x600/?activity"
+                                    alt="Activity Cover"
+                                />
+                                <span class="absolute top-3 left-3 inline-block py-1 px-2 bg-gray-100 text-gray-700 rounded">randonnée</span>
+                                <span class="absolute bottom-3 right-3 inline-block text-white text-2xl font-bold">1er mars</span>
+                            </div>
+                                
+                                <div class="p-4">
+                                    <h3 class="text-xl font-bold mb-2">
+                                        Randonnée
+                                    </h3>
+                                    <div class="flex items-center mb-2">
+                                        <span class="text-green-500 mr-1"
+                                            ><i
+                                                class="fas fa-map-marker-alt"
+                                            ></i
+                                        ></span>
+                                        <span>Paris, France</span>
+                                        <span class="mx-2">
+                                    </div>
+                                    <div class="flex items-center mb-2">
+                                        
+                                        <span class="text-green-500"
+                                            ><i class="fas fa-users"></i>
+                                            4/10</span
+                                        >
+                                    </div>
+                                    <p class="text-gray-400">
+                                        Proposé par Jean Dupont
+                                    </p>
+                                    <a
+                                        href="#"
+                                        class="inline-block mt-4 bg-green-700 hover:bg-green-950 rounded-full px-4 py-2 text-white"
+                                        >En savoir plus</a
+                                    >
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="shrink-0 bg-gray-200 py-4 px-6 flex justify-between">
+            <a href="#" class="text-gray-600 hover:text-gray-800">
+                <i class="fas fa-home"></i>
+            </a>
+            <a href="#" class="text-gray-600 hover:text-gray-800">
+                <i class="fas fa-user"></i>
+            </a>
+            <a href="#" class="text-gray-600 hover:text-gray-800">
+                <i class="fas fa-heart"></i>
+            </a>
+            <a href="#" class="text-gray-600 hover:text-gray-800">
+                <i class="fas fa-cog"></i>
+            </a>
+        </footer>
+    </body>
+</html>
