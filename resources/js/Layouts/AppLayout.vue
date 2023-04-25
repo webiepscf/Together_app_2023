@@ -11,26 +11,18 @@ defineProps({
 </script>
 
 <template>
-    <div class="min-h-screen">
+    <div class="bg-gradient-to-b from-teal-600 to-cyan-900 min-h-screen">
         <Head :title="title" />
 
         <Banner />
 
-        <div class="bg-gray-100">
-            <Nav />
-
-            <!-- Page Heading -->
-            <header v-if="$slots.header" class="bg-white shadow">
-                <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-                    <slot name="header" />
-                </div>
-            </header>
-
+        <div class="flex flex-col justify-between h-screen">
+            <Nav class="shrink-0" />
             <!-- Page Content -->
-            <main>
+            <main class="grow p-6 overflow-y-auto">
                 <slot />
             </main>
+            <Footer class="shrink-0" />
         </div>
-        <Footer />
     </div>
 </template>
