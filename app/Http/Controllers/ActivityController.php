@@ -12,7 +12,6 @@ class ActivityController extends Controller
 
     //     public function setCoords()
     //     {
-    //         $activities = Activity::all();
     //         $client = new Client([
     //             'base_uri' => 'https://nominatim.openstreetmap.org/',
     //             'timeout'  => 2.0,
@@ -20,7 +19,7 @@ class ActivityController extends Controller
     //                 'User-Agent' => 'TogetherApp/1.0',
     //             ],
     //         ]);
-    //         foreach ($activities as $activity) {
+    //         foreach ($activities = Activity::all() as $activity) {
     //             $response = $client->get('search', [
     //                 'query' => [
     //                     'street' => $activity->address,
